@@ -1,10 +1,7 @@
-@extends("layouts.front.front")
+@extends("layouts.front")
 @section("css")
 @endsection
 @section("content")
-
-
-
 
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
@@ -32,7 +29,7 @@
                 </div><!-- Hero Area End -->
 
                 <div class="hero-two-banner-text">
-                    <img src="assets/images/banners/hero-text-banner.png" alt="">
+                    <img src="assets/front/images/banners/hero-text-banner.png" alt="">
                 </div>
             </div>
             <!-- Most Popular Area Start -->
@@ -46,8 +43,10 @@
                         </div>
                         <div class="col-4">
                             <div class="most-popular-slider-navigation">
-                                <div class="popular-swiper-button-prev navigation-button"><i class="icofont-long-arrow-left"></i></div>
-                                <div class="popular-swiper-button-next navigation-button"><i class="icofont-long-arrow-right"></i></div>
+                                <div class="popular-swiper-button-prev navigation-button"><i
+                                        class="icofont-long-arrow-left"></i></div>
+                                <div class="popular-swiper-button-next navigation-button"><i
+                                        class="icofont-long-arrow-right"></i></div>
                             </div>
                         </div>
                     </div>
@@ -59,7 +58,7 @@
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item" data-aos="fade-up">
                                     <a href="blog-details.html" class="most-populer-thum">
-                                        <img src="assets/images/populer/01_populer.jpg" alt="" />
+                                        <img src="assets/front/images/populer/01_populer.jpg" alt=""/>
                                     </a>
                                     <div class="most-populer-content">
                                         <div class="most-populer-post-author">
@@ -82,7 +81,7 @@
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item" data-aos="fade-up">
                                     <a href="blog-details.html" class="most-populer-thum">
-                                        <img src="assets/images/populer/02_populer.jpg" alt="" />
+                                        <img src="assets/front/images/populer/02_populer.jpg" alt=""/>
                                     </a>
                                     <div class="most-populer-content">
                                         <div class="most-populer-post-author">
@@ -105,7 +104,7 @@
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item" data-aos="fade-up">
                                     <a href="blog-details.html" class="most-populer-thum">
-                                        <img src="assets/images/populer/03_populer.jpg" alt="" />
+                                        <img src="assets/front/images/populer/03_populer.jpg" alt=""/>
                                     </a>
                                     <div class="most-populer-content">
                                         <div class="most-populer-post-author">
@@ -128,7 +127,7 @@
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item" data-aos="fade-up">
                                     <a href="blog-details.html" class="most-populer-thum">
-                                        <img src="assets/images/populer/02_populer.jpg" alt="" />
+                                        <img src="assets/front/images/populer/02_populer.jpg" alt=""/>
                                     </a>
                                     <div class="most-populer-content">
                                         <div class="most-populer-post-author">
@@ -171,7 +170,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/01-recent-article.jpg" alt="" />
+                                    <img src="assets/front/images/recent-article/01-recent-article.jpg" alt=""/>
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -196,7 +195,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/02-recent-article.jpg" alt="">
+                                    <img src="assets/front/images/recent-article/02-recent-article.jpg" alt="">
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -221,7 +220,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/03-recent-article.jpg" alt="">
+                                    <img src="assets/front/images/recent-article/03-recent-article.jpg" alt="">
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -247,7 +246,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/04-recent-article.jpg" alt="" />
+                                    <img src="assets/front/images/recent-article/04-recent-article.jpg" alt=""/>
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -272,7 +271,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/05-recent-article.jpg" alt="">
+                                    <img src="assets/front/images/recent-article/05-recent-article.jpg" alt="">
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -297,7 +296,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/06-recent-article.jpg" alt="">
+                                    <img src="assets/front/images/recent-article/06-recent-article.jpg" alt="">
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -323,7 +322,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/07-recent-article.jpg" alt="" />
+                                    <img src="assets/front/images/recent-article/07-recent-article.jpg" alt=""/>
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -348,7 +347,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/08-recent-article.jpg" alt="">
+                                    <img src="assets/front/images/recent-article/08-recent-article.jpg" alt="">
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -373,7 +372,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/recent-article/09-recent-article.jpg" alt="">
+                                    <img src="assets/front/images/recent-article/09-recent-article.jpg" alt="">
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -433,7 +432,7 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="special-banner-image mb-20" data-aos="fade-up">
-                                <img src="assets/images/banners/special-banner.jpg" alt="">
+                                <img src="assets/front/images/banners/special-banner.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -489,7 +488,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/banners/02-special-banner.jpg" alt="" />
+                                    <img src="assets/front/images/banners/02-special-banner.jpg" alt=""/>
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -511,7 +510,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/banners/03-special-banner.jpg" alt="" />
+                                    <img src="assets/front/images/banners/03-special-banner.jpg" alt=""/>
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -533,7 +532,7 @@
                             <!-- Single Most Populer Item Start -->
                             <div class="single-most-populer-item" data-aos="fade-up">
                                 <a href="blog-details.html" class="most-populer-thum">
-                                    <img src="assets/images/banners/04-special-banner.jpg" alt="" />
+                                    <img src="assets/front/images/banners/04-special-banner.jpg" alt=""/>
                                 </a>
                                 <div class="most-populer-content">
                                     <div class="most-populer-post-author">
@@ -558,8 +557,6 @@
 
         </div>
     </div>
-
-
 
 @endsection
 @section("js")

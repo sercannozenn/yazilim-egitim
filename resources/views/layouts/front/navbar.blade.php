@@ -1,21 +1,46 @@
 
 
 <!--========  header area =========-->
-<header class="header-two position--absolute">
+<header class="header">
+    <div class="header-mid-area">
 
-    <div class="header-bottom-area">
         <div class="container">
+
             <div class="row align-items-center">
-                <div class="col-lg-2 col-md-3 col-5">
+                <div class="col-lg-3 col-md-2 col-5">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="assets/images/logo/logo-2.png" alt="" />
+                            <img src="assets/front/images/logo/logo.png" alt=""/>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-8 d-lg-block d-none">
-                    <div class="main-menu-area text-center">
-                        <nav class="navigation-menu navigation-menu-white ">
+                <div class="col-lg-6 col-md-6 d-md-block d-none">
+                    <div class="header-add-banner text-center">
+                        <a href="#">
+                            <img src="assets/front/images/banners/header-add-banner.jpg" alt=""/>
+                            <h6 class="header-add-text">All Food Item
+                                <span>50% Off</span>
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-7">
+
+                   @include("layouts.front.register")
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-9">
+                @include("layouts.front.social")
+                    </div>
+                <div class="col-lg-8 col-3">
+                    <div class="main-menu-area text-end">
+                        <nav class="navigation-menu">
                             <ul>
                                 <li class="has-children">
                                     <a href="index.html"><span>Home</span></a>
@@ -32,46 +57,35 @@
                                 </li>
                                 <li class="has-children"><a href="category.html"><span>Category</span></a>
                                     <ul class="submenu">
-                                        <li><a href="category.html"><span>Category List</span></a> </li>
-                                        <li><a href="category-grid.html"><span>Category Grid</span></a> </li>
+                                        <li><a href="category.html"><span>Category List</span></a></li>
+                                        <li><a href="category-grid.html"><span>Category Grid</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="has-children">
                                     <a href="#"><span>Pages</span></a>
                                     <ul class="submenu">
-                                        <li><a href="blog-details.html"><span>Blog Details</span></a> </li>
-                                        <li><a href="blog-details-two.html"><span>Blog Details Two</span></a> </li>
-                                        <li><a href="error-404.html"><span>Error 404</span></a> </li>
-                                        <li><a href="faq.html"><span>FAQ's</span></a> </li>
-                                        <li><a href="author-post.html"><span>Author post</span></a> </li>
-                                        <li><a href="register.html"><span>Register</span></a> </li>
-                                        <li><a href="write-post.html"><span>Write Post</span></a> </li>
+                                        <li><a href="blog-details.html"><span>Blog Details</span></a></li>
+                                        <li><a href="blog-details-two.html"><span>Blog Details Two</span></a></li>
+                                        <li><a href="error-404.html"><span>Error 404</span></a></li>
+                                        <li><a href="faq.html"><span>FAQ's</span></a></li>
+                                        <li><a href="author-post.html"><span>Author post</span></a></li>
+                                        <li><a href="register.html"><span>Register</span></a></li>
+                                        <li><a href="write-post.html"><span>Write Post</span></a></li>
                                     </ul>
                                 </li>
                                 <li><a href="contact-us.html"><span>Contact </span></a></li>
                             </ul>
                         </nav>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-9 col-7">
-                    <div class="header-two-right-side">
-                        <a href="#" class="single-action-item">
-                            <span class="new-notification"></span>
-                            <img src="assets/images/icons/notification-white.png" alt="">
-                        </a>
-                        <a href="register.html" class="single-action-item">
-                            <img src="assets/images/icons/user-white.png" alt="">
-                        </a>
-                        <!-- mobile menu -->
-                        <div class="mobile-navigation-icon icon-white d-block d-lg-none" id="mobile-menu-trigger">
+                    <!-- mobile menu -->
+                    <div class="mobile-menu-right">
+                        <div class="mobile-navigation-icon d-block d-lg-none" id="mobile-menu-trigger">
                             <i></i>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-
 </header>
 <!--======== End of header area  =========-->
