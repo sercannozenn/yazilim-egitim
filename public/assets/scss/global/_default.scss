@@ -1,0 +1,396 @@
+
+/*=============================================
+=             01. Default Css                 =
+=============================================*/
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+html, body {
+    height: 100%;
+}
+body{
+  line-height: $body-line-height;
+  font-size: $body-font-size;
+  font-style: normal;
+  font-weight: $body-font-weight;
+  visibility: visible;
+  font-family: $font-family-name;
+  color: $body-text-color;
+  position: relative;
+  background-color: $body-bg-color;
+  &.no-overflow{
+    overflow: hidden;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $heading-text-color;
+    font-family: $heading-font-family-name;
+    font-weight: $heading-font-weight;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.41;
+}
+h1 {
+    font-size: 56px;
+    @media #{$desktop-device}{
+      font-size: 46px; 
+    }
+    @media #{$tablet-device}{
+      font-size: 40px;
+    }
+    @media #{$large-mobile}{
+      font-size: 34px;
+    }
+  }
+h2 {
+    font-size: 38px;
+    @media #{$desktop-device}{
+      font-size: 32px; 
+    }
+    @media #{$tablet-device}{
+      font-size: 30px;
+    }
+    @media #{$large-mobile}{
+      font-size: 26px;
+    }
+  }
+h3 {
+    font-size: 24px;
+    @media #{$desktop-device}{
+      font-size: 22px; 
+    }
+    @media #{$tablet-device}{
+      font-size: 20px;
+    }
+    @media #{$large-mobile}{
+      font-size: 20px;
+    }
+}
+h4 {
+    font-size: 20px;
+    @media #{$desktop-device}{
+      font-size: 18px; 
+    }
+    @media #{$tablet-device}{
+      font-size: 18px;
+    }
+    @media #{$large-mobile}{
+      font-size: 18px;
+    }
+}
+h5 {
+    font-size: 18px;
+    @media #{$large-mobile}{
+      font-size: 16px;
+    }
+}
+h6 {
+    font-size: 16px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+a, button {
+  color: inherit;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+a, button, img, input {
+  transition: $transition--default;
+}
+*:focus {
+  outline: none !important;
+}
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+a:hover {
+  text-decoration: none;
+  color: $primary;
+}
+.theme-color-two {
+    a:hover {
+      color: $primary-two;
+    }
+}
+.theme-color-three {
+  a:hover {
+    color: $primary-three;
+  }
+}
+.theme-color-four {
+  a:hover {
+    color: $primary-four;
+  }
+}
+.theme-color-five {
+  a:hover {
+    color: $primary-five;
+  }
+}
+.theme-color-six {
+  a:hover {
+    color: $primary-five;
+  }
+}
+
+button, input[type="submit"] {
+  cursor: pointer;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.form-messege ,
+.form-messege-2  {
+    &.success {
+        color: green;
+    }
+    &.error {
+        color: red;
+    }
+}
+.mark, mark {
+    padding: 0 0;
+    background-color: transparent;
+}
+.font-weight--bold {
+    font-weight: 800;
+}  
+.font-weight--reguler {
+    font-weight: 500;
+} 
+.font-weight--normal {
+    font-weight: 400;
+}  
+.font-weight--light {
+    font-weight: 300;
+} 
+
+/*--
+    Default Class
+*/
+
+
+.text-color-primary {
+    color: $primary;
+}
+.text-color-secondary {
+    color: $heading-text-two;
+}
+.text-black {
+    color: $black !important;
+}
+.bg-gray {
+  background-color: #edf0f8;
+}
+.bg-gray-1 {
+  background-color: #fafafa;
+}
+.bg-gray-2 {
+  background-color: #f8f8f8;
+}
+.bg-gradient {
+   background: -webkit-linear-gradient(top,#FFF 0,#F5F5F5 100%); 
+}
+
+
+/*-- Tab Content & Pane Fix --*/
+select {
+    padding: 3px 20px;
+    height: 56px;
+    max-width: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    background: #f8f8f8 url("../images/icons/selector-icon.png") no-repeat center right 20px;
+    background-color: rgb(248, 248, 248);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    &:focus {
+        background: #f8f8f8 url("../images/icons/selector-icon.png") no-repeat center right 20px !important;
+    }
+}
+.fixed-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*------- Defauld Class --------*/
+.text-black {
+    color: #333;
+}
+.box-shadow-top {
+   box-shadow:  0 10px 15px rgba(0, 0, 0, 0.05)
+}
+.border {
+    border: 1px solid #ededed !important;
+}
+.border-top {
+    border-top: 1px solid #ededed !important;
+}
+.border-right {
+    border-right: 1px solid #ededed !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #ededed !important;
+}
+.border-left {
+    border-left: 1px solid #ededed !important;
+}
+.border-top-dash {
+    border-top: 1px dashed #ddd !important;
+}
+.border-bottom-dash {
+    border-bottom: 1px dashed #ddd !important;
+}
+.border-top-thick {
+    border-top: 2px solid #ededed !important;
+}
+.border-bottom-thick {
+    border-bottom: 2px solid #ededed !important;
+}
+.border-top-drak{
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+}
+.border-bottom-drak{
+    border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+img {
+  max-width: 100%;
+}
+.img-width {
+    width: 100%;
+}
+::selection {
+    color: $white;
+    background-color: $primary;
+}
+form {
+    input:focus::-webkit-input-placeholder { color:transparent; }
+    input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+    input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+    input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+    input, textarea{
+        font-weight: 500;
+        &::placeholder{
+            transition: $transition--default;
+        }
+    }
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus, select:focus, select:focus, textarea:focus {
+    color: $primary;
+    border-color: $primary;
+}
+input[type="checkbox"] {
+    position: relative;
+    background: 0 0;
+    border-width: 0;
+    box-shadow: none;
+    margin: 0 10px 0 3px;
+    cursor: pointer;
+}
+
+
+.navigation-button {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #f4f4f4;
+    font-size: 24px;
+    border-radius: 50000px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $primary;
+        color: $white;
+    }
+    &:last-child {
+        margin-left: 10px;
+    }
+}
+
+
+/*=============================================
+   - Scroll top         
+=============================================*/
+
+.scroll-top{
+  position: fixed;
+  right: 30px;
+  bottom: -60px;
+  z-index: 999;
+  box-shadow: 0 30px 50px rgba(0,0,0,.03);
+  display: block;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 60px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  background-color: $primary;
+  background-size: 200% auto;
+  background-position: left center;
+  color: $white;
+  transition: all .5s cubic-bezier(.645,.045,.355,1);
+  overflow: hidden;
+
+  @media #{$extra-small-mobile}{
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+  }
+
+  &.show{
+      visibility: visible;
+      opacity: 1;
+      bottom: 60px;
+  }
+
+  i{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: $white;
+      transition: $transition--default;
+  }
+
+  .arrow-top{
+      transform: translate(-50%, -50%);
+  }
+
+  .arrow-bottom{
+      transform: translate(-50%, 80px);
+  }
+
+  &:hover{
+      background-position: right center;
+      .arrow-top{
+          transform: translate(-50%, -80px);
+      }
+      .arrow-bottom{
+          transform: translate(-50%, -50%);
+      }
+  }
+}
+

@@ -1,0 +1,91 @@
+
+/*==================================
+    22. Most Populer Area Css
+====================================*/
+.single-most-populer-item {
+    margin-top: 40px;
+}
+.most-populer-thum {
+    display: block;
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+.most-populer-content {
+    margin-top: 25px;
+    .title {
+        color: $secondary-two;
+        margin-top: 10px;
+    }
+    
+    .most-populer-post-meta {
+        margin-top: 10px;
+        & > span {
+            position: relative;
+            padding-right: 10px;
+            margin-right: 10px;
+            font-size: 13px;
+            color: $secondary-two;
+            &::after {
+                position: absolute;
+                content: "";
+                right: -0px;
+                top: 50%;
+                height: 4px;
+                width: 4px;
+                background: $black;
+                border-radius: 50000px;
+                transform: translateY(-50%);
+            }
+            &:last-child {
+                padding-right: 0;
+                margin-right: 0;
+                &::after {
+                    display: none;
+                }
+            } 
+        }
+    }
+}
+.most-populer-post-author {
+    color: #9b9ea1;
+    font-weight: 600;
+    a {
+        color: $secondary-two;
+    }
+}
+
+.most-popular-slider-navigation {
+    display: flex;
+    justify-content: flex-end;
+    .navigation-button {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        border: 1px solid #e7e5ed;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 10px;
+        color: $secondary-two;
+        transition: all 0.3s ease-in-out;
+        &.popular-swiper-button-next {
+            margin-left: 10px;
+        }
+        &:hover {
+            border: 1px solid $primary-two;;
+            background-color: $primary-two;
+            color: $white;
+        }
+    }
+}
+
+.special-banner-blog-post {
+    .single-special-banner-post {
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 30px;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

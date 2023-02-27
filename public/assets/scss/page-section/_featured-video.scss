@@ -1,0 +1,95 @@
+
+/*==================================
+    17. Featured Video Area Css
+====================================*/
+
+.featured-video-col-8 {
+    max-width: 847px;
+    flex: 0 0 auto;
+    @media #{$laptop-device} {
+        max-width: 846px;
+        width: 100%;
+    }
+    @media #{$desktop-device,$tablet-device,$large-mobile} {
+        max-width: 100%;
+    }
+}
+.latest-post-col-4 {
+    max-width: 363px;
+    flex: 0 0 auto;
+    @media #{$laptop-device} {
+        max-width: 360px;
+        width: 100%;
+    }
+    @media #{$desktop-device,$tablet-device,$large-mobile} {
+        max-width: 100%;
+    }
+}
+
+.featured-video-haader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media #{$small-mobile} {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.featured-video-list {
+    .featured-video-list-item {
+        padding-right: 40px;
+        margin-right: 25px;
+        position: relative;
+        @media #{$large-mobile} {
+            padding-right: 25px;
+            margin-right: 8px;
+        }
+        @media #{$small-mobile} {
+            margin-top: 20px;
+        }
+        &::after {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            content: '\eab8';
+            font-family: IcoFont;
+            transform: translateY(-50%);
+        }
+        .featured-video-link {
+            font-weight: 600;
+            &.active {
+                color: $primary;
+            }
+        }
+        &:last-child {
+            padding-right: 0px;
+            margin-right: 0px;
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+.single-featured-video-item {
+    margin-bottom: 30px;
+}
+
+.featured-blog-post-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    @media #{$extra-small-mobile} {
+        margin-bottom: 10px;
+    }
+    .post-meta-right-side {
+        margin-left: 30px;
+    }
+    .read-time {
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+}

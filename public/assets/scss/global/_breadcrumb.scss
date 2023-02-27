@@ -1,0 +1,36 @@
+
+/*============================================
+=          05. Breadcrumb Css          =
+=============================================*/
+.breadcrumb-area {
+    background-color: #fafafa;
+    padding: 80px 0;
+}
+
+.breadcrumb-list {
+    padding: 10px 20px;
+    background-color: #ffebdf;
+    display: inline-block;
+    border-radius: 15px;
+    li {
+        display: inline-block;
+    }
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 1.5rem;
+    position: relative;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: .1rem;
+    color: #222;
+    content: '';
+    height: 6px;
+    width: 6px;
+    background: #222;
+    border-radius: 5000px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 8px;
+}

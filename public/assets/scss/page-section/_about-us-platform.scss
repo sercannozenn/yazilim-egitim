@@ -1,0 +1,123 @@
+/*==================================
+    25. Platform Area Css
+====================================*/
+.single-platform-box {
+    background-color: #fafafa;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    @media #{$small-mobile} {
+        padding: 40px 20px;
+    }
+}
+.platform-icon {
+    background-color: $primary;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.platform-content {
+    .title {
+        margin-bottom: 20px;
+    }
+}
+.platform-d-flex {
+    display: flex;
+    @media #{$large-mobile} {
+        flex-direction: column;
+    }
+}
+.platform-content-box {
+    max-width: 300px;
+    padding-right: 20px;
+    @media #{$desktop-device} {
+        max-width: 250px;
+    }
+    @media #{$large-mobile} {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+.plateform-image-box {
+    margin-left: 30px;
+    @media #{$large-mobile} {
+        margin-left: 0px;
+    }
+}
+
+.bunzo-row {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    @media #{$tablet-device,$large-mobile} {
+        flex-direction: column;
+        justify-content: flex-start;
+        border-bottom: none;
+    }
+}
+.bunzo-col-6 {
+    width: 50%;
+    flex: 0 0 auto;
+    border-left: 1px solid #ddd;
+    height: 100%;
+    &:first-child {
+        border-left: none;
+    }
+    @media #{$tablet-device,$large-mobile} {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+
+.bunzo-history-title {
+    font-size: 62px;
+    font-weight: 300;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .f-w-bold {
+        font-weight: 600;
+    }
+    @media #{$desktop-device} {
+        font-size: 42px;
+    }
+    @media #{$tablet-device} {
+        font-size: 42px;
+    }
+    @media #{$large-mobile} {
+        font-size: 22px;
+    }
+}
+
+.single-history-item {
+    border-bottom: 1px solid #ddd;
+    padding: 60px 0 60px 90px;
+
+    &:last-child {
+        border-bottom: none;
+    }
+    @media #{$desktop-device,$tablet-device,$large-mobile} {
+        padding: 30px 30px 30px 30px;
+        border-right: 1px solid #ddd;
+    }
+}
+
+
+.plateforem-image {
+    position: relative;
+    .platform-box-button {
+        position: absolute;
+        width: 100%;
+        bottom: 30px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

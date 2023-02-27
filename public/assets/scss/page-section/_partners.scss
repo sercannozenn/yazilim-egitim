@@ -1,0 +1,43 @@
+/*==================================
+    24. Trusted Partners Area Css
+====================================*/
+.trusted-partners-box {
+    padding: 80px 100px;
+    background-color: #f4eaff;
+    border-radius: 15px;
+    .trusted-partners-slider-wrap {
+        display: flex;
+        align-items: center;
+    }
+    @media #{$desktop-device} {
+        padding: 60px 80px;
+    }
+    @media #{$tablet-device} {
+        padding: 60px 40px;
+    }
+    @media #{$large-mobile} {
+        padding: 60px 30px;
+    }
+}
+
+.trusted-partners-area {
+    padding: 60px 0;
+}
+
+.partners-swiper-pagination {
+    margin-top: 40px;
+    text-align: center;
+    .swiper-pagination-bullet {
+        height: 14px;
+        width: 14px;
+        border-radius: 100%;
+        background-color: #8b61b7;
+        margin: 8px;
+        &.swiper-pagination-bullet-active {
+            background-color: $secondary-three;
+            border-radius: 100%;
+        }
+    }
+}
+
+

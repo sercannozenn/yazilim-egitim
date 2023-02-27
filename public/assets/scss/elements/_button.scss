@@ -1,0 +1,283 @@
+/*============================================
+=          06. Button Css          =
+=============================================*/
+
+.btn{
+    height: 50px;
+    line-height: 48px;
+    padding: 0 30px;
+    background-color: #f4f4f4;
+    font-weight: 500;
+    border-radius: 15px;
+    &:hover {
+        background-color: $primary;
+    }
+    i {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+}
+.btn-primary{
+    background: $primary;
+    font-weight: 500;
+    border-radius: 10px;
+    color: $black;
+    border: none;
+    &:focus{
+        outline: none !important;
+    }
+    &:hover,&:focus {
+        background: #d4966f;
+        color: $black;
+        box-shadow: none;
+    }
+    i {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+}
+.btn-bg-2 {
+    background-color: $primary-two;
+    color: $white;
+}
+.btn-bg-3 {
+    background-color: $primary-three;
+    color: $white;
+}
+.btn-bg-4 {
+    background-color: $primary-four;
+    color: $white;
+}
+.btn-bg-5 {
+    background-color: $secondary-five;
+    color: $black;
+}
+
+.btn-bg-5-primary {
+    background-color: $primary-five;
+    color: $white;
+    &:hover {
+        color: #222;
+    }
+}
+.btn-bg-6{
+    background-color: $primary-six;
+    color: $white;
+}
+.btn-bg-white {
+    background-color: $white;
+    color: $secondary-three;
+}
+.btn-primary-three {
+    padding: 0px 30px;
+    background: #f4eaff;
+    font-weight: 600;
+    border-radius: 10px;
+    color: $secondary-three;
+    border: none;
+    &:focus{
+        outline: none !important;
+    }
+    &:hover,&:focus {
+        background: $primary-three;
+        color: $white !important;
+        box-shadow: none;
+    }
+    i {
+        margin-left: 15px;
+        font-size: 22px;
+    }
+}
+.btn-primary-four {
+    padding: 0px 30px;
+    background: #edf0f8;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #081131;
+    border: none;
+    @media #{$tablet-device,$desktop-device} {
+        padding: 0 20px;
+    }
+    &:focus{
+        outline: none !important;
+    }
+    &:hover,&:focus {
+        background: $primary-four;
+        color: $white !important;
+        box-shadow: none;
+    }
+    i {
+        margin-left: 15px;
+        font-size: 22px;
+    }
+}
+
+.btn-outline-2 {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    color: $white;
+    padding-bottom: 2px;
+    color: $primary-two;
+    &:hover {
+        color: $white;
+        border: 2px solid $primary-two;
+        background-color: $primary-two;
+    }
+}
+
+.btn-large {
+    padding: 0 30px;
+    height: 60px;
+    line-height: 60px;
+    @media #{$tablet-device,$desktop-device} {
+        padding: 0 20px;
+    }
+}
+.btn-medium {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+
+.woocommerce {
+    background-color: #fff1dc;
+    color: #d59a46;
+    border-radius: 15px;
+    &:hover {
+        background-color: #d59a46;
+        color: $white;
+    }
+}
+.wordpress {
+    background-color: #e0f9f6;
+    color: #3ac8bd;
+    border-radius: 15px;
+    &:hover {
+        background-color: #3ac8bd;
+        color: $white;
+    }
+}
+.magento {
+    background-color: #fbefef;
+    color: #b36262;
+    border-radius: 15px;
+    &:hover {
+        background-color: #b36262;
+        color: $white;
+    }
+}
+.laravel {
+    background-color: #9c8bda;
+    color: #fff;
+    border-radius: 15px;
+    &:hover {
+        background-color: #9c8bda;
+        color: $white;
+    }
+}
+.ux-design {
+    background-color: #e8f7e0;
+    color: #8cad78;
+    border-radius: 15px;
+    &:hover {
+        background-color: #8cad78;
+        color: $white;
+    }
+}
+.online-tutorial {
+    background-color: #e3f0ff;
+    color: #7f9cbf;
+    border-radius: 15px;
+    &:hover {
+        background-color: #7f9cbf;
+        color: $white;
+    }
+}
+.marketing {
+    background-color: #fdf0e8;
+    color: #c49076;
+    border-radius: 15px;
+    &:hover {
+        background-color: #c49076;
+        color: $white;
+    }
+}
+.javaScript {
+    background-color: #ffe7da;
+    color: #fe8e4b;
+    border-radius: 15px;
+    &:hover {
+        background-color: #fe8e4b;
+        color: $white;
+    }
+}
+.lifestyle {
+    background-color: #e1fae3;
+    color: #1f9a39;
+    border-radius: 15px;
+    &:hover {
+        background-color: #1f9a39;
+        color: $white;
+    }
+}
+.fashion {
+    background-color: #ffebdf;
+    border-radius: 15px;
+    &:hover {
+        color: #fff;
+        background-color: #f3d6c5;
+    }
+}
+.health {
+    background-color: #dcf1ff;
+    border-radius: 15px;
+}
+.travel {
+    background-color: #ffe6af;
+    border-radius: 15px;
+}
+.business {
+    background-color: #e1f3ff;
+    border-radius: 15px;
+}
+.food {
+    background-color: #f9e7a0;
+    border-radius: 15px;
+}
+.lifesytle {
+    background-color: #ffebde;
+    border-radius: 15px;
+}
+
+.tech {
+    background-color: #ffebdf;
+    border-radius: 15px;
+    &:hover {
+        color: #222;
+    }
+}
+.marketing {
+    background-color: #fce7e7;
+    border-radius: 15px;
+    color: #222;
+    &:hover {
+        color: #222;
+    }
+}
+.doctor {
+    background-color: #e6f9ed;
+    border-radius: 15px;
+    color: #222;
+    &:hover {
+        color: #222;
+    }
+}
+.health {
+    background-color: #eaf6fd;
+    border-radius: 15px;
+    color: #222;
+    &:hover {
+        color: #222;
+    }
+}

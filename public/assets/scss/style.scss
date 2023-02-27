@@ -1,0 +1,85 @@
+/*============================
+    CSS Index         
+==============================
+
+    01. Default Css  
+        - Scroll top 
+    02. Section Spacing Css
+    03. Custom Container Css  
+    04. Section title Css  
+    05. Breadcrumb Css 
+    06. Button Css 
+    07. Testimonial Css  
+    08. Video Popup Css 
+    09. Header Css
+    10. Navigation Menu Css
+    11. Footer Area Css
+    12. Hero Area Css
+    13. Trending Article Area Css
+    14. From Following Area Css
+    15. Trending Topic Area Css
+    16. Newsletter Area Css
+    17. Featured Video Area Css
+    18. Latest Post Area Css
+    19. Recent Reading Area Css
+    20. Archive Search Area Css
+    21. Add Banner Area Css
+    22. Most Populer Area Css
+    23. Recent Article Area Css
+    24. Trusted Partners Area Css
+    25. Platform Area Css
+    26. Team Area Css
+    27. Blog Details Area Css
+    28. Author Post Area Css
+    29. FAQ Area Css
+    30. Contact us page Css
+    31. Error 404 page Css
+    32. Write Content page Css
+    33. login page Css
+    
+/*=====  End of CSS Index  ======*/
+
+
+@import 'variabls';
+@import 'global/default';
+@import 'global/spacing';
+@import 'global/container';
+@import 'global/section-title';
+@import 'global/breadcrumb';
+
+@import 'elements/button';
+@import 'elements/testimonial';
+@import 'elements/popup-video';
+
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+
+@import 'page-section/hero';
+@import 'page-section/trending-article';
+@import 'page-section/from-following';
+@import 'page-section/trending-topic';
+@import 'page-section/newsletter';
+@import 'page-section/featured-video';
+@import 'page-section/latest-post';
+@import 'page-section/recent-reading';
+@import 'page-section/archive-sidebar-post';
+
+@import 'page-section/add-banner';
+
+@import 'page-section/most-populer';
+@import 'page-section/recent-article';
+
+@import 'page-section/partners';
+
+@import 'page-section/about-us-platform';
+@import 'page-section/team';
+
+@import 'page-section/blog-details';
+@import 'page-section/author-post';
+@import 'page-section/faq';
+@import 'page-section/contact-page';
+@import 'page-section/error-404';
+@import 'page-section/write-post';
+@import 'page-section/login';
+

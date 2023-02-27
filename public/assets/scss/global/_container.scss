@@ -1,0 +1,236 @@
+
+/*============================================
+=          03. Custom Container Css          =
+=============================================*/
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+.container-custom-xl {
+    max-width: 1540px;
+    width: 100%;
+    @media #{$laptop-device} {
+        max-width: 100%;
+    }
+    @media #{$desktop-device} {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.container-custom-150 {
+    padding-right: 115px;
+    padding-left: 115px;
+    @media #{$laptop-device} {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    @media #{$desktop-device} {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    @media #{$tablet-device} {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    @media #{$large-mobile} {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+
+
+.row--35 {
+    margin-left: -35px;
+    margin-right: -35px;
+
+    // Responsive
+    @media #{$laptop-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    @media #{$desktop-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    @media #{$tablet-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    @media #{$large-mobile} {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    &>[class*="col"],
+    &>[class*="col-"] {
+        padding-left: 35px;
+        padding-right: 35px;
+
+        // Responsive
+        @media #{$laptop-device} {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media #{$desktop-device} {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media #{$tablet-device} {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+        @media #{$large-mobile} {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+}
+.row--30 {
+    margin-left: -30px;
+    margin-right: -30px;
+    // Responsive
+    @media #{$laptop-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    @media #{$desktop-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    @media #{$tablet-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    @media #{$large-mobile} {
+        margin-left: -12px !important;
+        margin-right: -12px !important;
+    }
+
+    &>[class*="col"],
+    &>[class*="col-"] {
+        padding-left: 30px;
+        padding-right: 30px;
+        @media #{$laptop-device} {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        // Responsive
+        @media #{$desktop-device} {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media #{$tablet-device} {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+        @media #{$large-mobile} {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+}
+.row--17 {
+    margin-left: -17px;
+    margin-right: -17px;
+
+    // Responsive
+    
+    @media #{$laptop-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    @media #{$desktop-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    @media #{$tablet-device} {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    @media #{$large-mobile} {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    &>[class*="col"],
+    &>[class*="col-"] {
+        padding-left: 17px;
+        padding-right: 17px;
+
+        // Responsive
+        @media #{$laptop-device} {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media #{$desktop-device} {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media #{$tablet-device} {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+        @media #{$large-mobile} {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+}
+.row--10 {
+    margin-left: -10px;
+    margin-right: -10px;
+
+    // Responsive
+    @media #{$desktop-device} {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    @media #{$tablet-device} {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    @media #{$large-mobile} {
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+    }
+
+    &>[class*="col"],
+    &>[class*="col-"] {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        // Responsive
+        @media #{$desktop-device} {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        @media #{$tablet-device} {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
+        @media #{$large-mobile} {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+}

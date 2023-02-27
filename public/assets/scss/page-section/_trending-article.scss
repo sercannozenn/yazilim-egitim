@@ -1,0 +1,397 @@
+/*==================================
+    13. Trending Article Area Css
+====================================*/
+.trending-article-row {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+    @media #{$tablet-device,$large-mobile} {
+        flex-wrap: wrap;
+    }
+}
+.trending-article-left-side {
+    max-width: 515px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media #{$tablet-device,$large-mobile} {
+        max-width: 100%;
+    }
+}
+.trending-article-right-side {
+    max-width: 675px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media #{$tablet-device,$large-mobile} {
+        margin-top: 30px;
+    }
+}
+.trending-single-item {
+    display: flex;
+    margin-top: 35px;
+    &:first-child {
+        margin-top: 0;
+    }
+    @media #{$large-mobile} {
+        margin-top: 20px;
+    }
+    .trending-post-thum {
+        max-width: 160px;
+        flex: 0 0 auto;
+        @media #{$extra-small-mobile} {
+            max-width: 100px;
+        }
+        img {
+            height: 100%;
+            vertical-align: middle;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    .trending-post-content {
+        margin-left: 30px;
+        @media #{$extra-small-mobile} {
+            margin-left: 15px;
+        }
+        @media #{$desktop-device} {
+            margin-left: 15px;
+        }
+    }
+}
+
+.trending-blog-post-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    @media #{$extra-small-mobile} {
+        margin-bottom: 10px;
+    }
+}
+
+.trending-blog-post-category {
+    margin-right: 25px;
+    a {
+        min-width: 100px;
+        text-align: center;
+        padding: 4px 5px;
+        border-radius: 10px;
+        color: #222;
+        
+    }
+    @media #{$extra-small-mobile} {
+        margin-right: 15px;
+        a {
+            min-width: 40px;
+            font-size: 12px;
+            padding: 2px 5px;
+        }
+    }
+}
+.trending-blog-post-author {
+    color: #9b9ea1;
+    a {
+        color: $black;
+    }
+    @media #{$extra-small-mobile} {
+        font-size: 12px;
+    }
+}
+.trending-blog-post-title {
+    margin-bottom: 15px;
+}
+
+.trending-blog-post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-meta-left-side {
+    span {
+        position: relative;
+        padding-right: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+        &::after {
+            position: absolute;
+            content: "";
+            right: -0px;
+            top: 50%;
+            height: 4px;
+            width: 4px;
+            background: $black;
+            border-radius: 50000px;
+            transform: translateY(-50%);
+        }
+        a {
+            &:hover {
+                color: $primary;
+            }
+        }
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+            &::after {
+                display: none;
+            }
+        } 
+    }
+}
+.post-meta-right-side {
+    a {
+        margin-left: 10px;
+    }
+}
+
+
+.large-banner-trending-article {
+    display: flex;
+    .trending-single-item {
+        margin-top: 45px;
+        &:first-child {
+            margin-top: 15px;
+        }
+        @media #{$desktop-device}{
+            margin-top: 25px;
+            &:first-child {
+                margin-top: 5px;
+            }
+        }
+
+        @media #{$extra-small-mobile} {
+            margin-top: 15px;
+        }
+    }
+}
+.trending-large-post-thum {
+    max-width: 315px;
+    flex: 0 0 auto;
+    @media #{$desktop-device,$large-mobile}{
+        max-width: 160px;
+    }
+    @media #{$extra-small-mobile} {
+        max-width: 100px;
+    }
+    img {
+        height: 100%;
+        vertical-align: middle;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+// Trending tody's Area Css
+
+.trending-tody-content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    @media #{$desktop-device}{
+        margin-left: 0px;
+    }
+    @media #{$tablet-device}{
+        margin-left: 0px;
+    }
+    @media #{$large-mobile}{
+        margin-left: 0px;
+    }
+}
+.trending-tody-post-author {
+    color: #9b9ea1;
+    margin-bottom: 10px;
+    font-size: 18px;
+    a {
+        color: $primary-four;
+    }
+    @media #{$extra-small-mobile} {
+        font-size: 12px;
+    }
+}
+.trending-tody-post-title {
+    margin-bottom: 20px;
+    font-size: 52px;
+    @media #{$laptop-device}{
+        font-size: 42px; 
+    }
+    @media #{$desktop-device}{
+        font-size: 36px; 
+    }
+    @media #{$tablet-device}{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    @media #{$large-mobile}{
+        font-size: 26px;
+    }
+}
+.trending-tody-content {
+    .dec  {
+        font-size: 18px;
+    }
+}
+.trending-tody-post-meta {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    span {
+        position: relative;
+        padding-right: 15px;
+        margin-right: 15px;
+        font-size: 13px;
+        font-weight: 600;
+        &::after {
+            position: absolute;
+            content: "";
+            right: -5px;
+            top: 50%;
+            height: 4px;
+            width: 4px;
+            background: $primary-four;
+            border-radius: 50000px;
+            transform: translateY(-50%);
+        }
+        a {
+            &:hover {
+                color: $primary-four;
+            }
+        }
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+            &::after {
+                display: none;
+            }
+        } 
+    }
+}
+
+.trending-tody-swiper-pagination {
+    margin-top: 80px;
+    text-align: center;
+    .swiper-pagination-bullet {
+        height: 12px;
+        width: 12px;
+        border-radius: 5000px;
+        background-color: $secondary-three;
+        margin: 10px;
+        &.swiper-pagination-bullet-active {
+            background-color: $primary-four;
+            border-radius: 5000px;
+        }
+    }
+    @media #{$large-mobile} {
+        margin-top: 40px;
+    }
+}
+
+// Trending Tody Style Two Css
+
+
+.trending-tody-two-box {
+    background-color: $white;
+    padding: 43px 40px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    .trending-tody-two-post-title {
+        font-size: 18px;
+    }
+    &:hover {
+        background-color: $primary-five;
+        .trending-tody-two-post-author {
+            color: $white;
+            a {
+                color: $white;
+            }
+        }
+        .trending-tody-two-post-title {
+            color: $white;
+        }
+        .trending-tody-two-post-meta { 
+            color: $white;
+            span {
+                &::after {
+                    background: $white;
+                }
+            }
+        }
+    }
+}
+.trending-tody-two-post-author {
+    color: #9b9ea1;
+    margin-bottom: 12px;
+    font-weight: 500;
+    transition: 0s ease-in-out;
+    a {
+        color: $secondary-two;
+        transition: 0s ease-in-out;
+    }
+    @media #{$extra-small-mobile} {
+        font-size: 12px;
+    }
+}
+.trending-tody-two-post-title {
+    color: $secondary-two;
+    a {
+        transition: 0s ease-in-out;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+.trending-tody-two-post-meta {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #7e7e7e;
+    span {
+        position: relative;
+        padding-right: 15px;
+        margin-right: 15px;
+        font-size: 13px;
+        font-weight: 500;
+        &::after {
+            position: absolute;
+            content: "";
+            right: -5px;
+            top: 50%;
+            height: 4px;
+            width: 4px;
+            background: $secondary-two;
+            border-radius: 50000px;
+            transform: translateY(-50%);
+        }
+        a {
+            transition: 0s ease-in-out;
+            &:hover {
+                color: $primary-four;
+            }
+        }
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+            &::after {
+                display: none;
+            }
+        } 
+    }
+}
+
+.trending-tody-two-slider-navigation {
+    display: flex;
+    justify-content: flex-end;
+    .navigation-button {
+        color: $secondary-two;
+        font-size: 24px;
+        height: 20px;
+        line-height: 20px;
+        background-color: transparent;
+        border-radius: 0;
+        &.trending-tody-button-prev {
+            margin-left: 20px;
+            padding-left: 20px;
+            border-left: 1px solid #dadada;
+        }
+    }
+}

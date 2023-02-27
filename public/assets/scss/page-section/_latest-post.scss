@@ -1,0 +1,212 @@
+/*==================================
+    18. Latest Post Area Css
+====================================*/
+.latest-post-inner-wrap {
+    padding: 30px 24px;
+    background: #fafafa;
+    border-radius: 10px;
+}
+@media #{$desktop-device,$tablet-device} {
+    .latest-post-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.latest-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-post-slider-navigation {
+    .navigation-button {
+        background-color: #222;
+        color: $white;
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}
+.single-latest-post {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    @media #{$desktop-device,$tablet-device} {
+        width: 50%;
+        padding-right: 15px;
+    }
+}
+.latest-post-thum {
+    flex-basis: 0 0 auto;
+    min-width: 84px;
+    a {
+        img {
+            border-radius: 10px;
+        }
+    }
+}
+.latest-post-content {
+    margin-left: 20px;
+    .title {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .latest-post-meta {
+        font-size: 12px;
+        margin-top: 10px;
+        span {
+            position: relative;
+            padding-right: 6px;
+            margin-right: 6px;
+            &::after {
+                position: absolute;
+                content: "";
+                right: -0px;
+                top: 50%;
+                height: 4px;
+                width: 4px;
+                background: $black;
+                border-radius: 50000px;
+                transform: translateY(-50%);
+            }
+            a {
+                &:hover {
+                    color: $primary;
+                }
+            }
+            &:last-child {
+                padding-right: 0;
+                margin-right: 0;
+                &::after {
+                    display: none;
+                }
+            } 
+        }
+    }
+}
+
+
+//  Stay In Touch Area Css
+
+.stay-in-touch-area {
+    margin-top: 30px;
+    padding: 30px 24px;
+    background: #fafafa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stay-in-touch-box {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.single-touch-col {
+    width: 33.333%;
+    flex: 0 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.single-touch {
+    background-color: #ebebeb;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px 10px;
+    &.facebook {
+        .touch-socail-icon {
+            background: $facebook;
+        }
+    }
+    &.twitter {
+        .touch-socail-icon {
+            background: $twitter;
+        }
+    }
+    &.behance {
+        .touch-socail-icon {
+            background: $behance;
+        }
+    }
+    &.youtube {
+        .touch-socail-icon {
+            background: $youtube;
+        }
+    }
+    &.dribbble {
+        .touch-socail-icon {
+            background: $dribbble;
+        }
+    }
+    &.linkedin {
+        .touch-socail-icon {
+            background: $linkedin;
+        }
+    }
+    p {
+        color: $black;
+        font-size: 12px;
+    }
+    &:hover {
+        &.facebook {
+            background: $facebook;
+            .touch-socail-icon {
+                color: $facebook;
+                background: $white;
+            }
+        }
+        &.twitter {
+            background: $twitter;
+            .touch-socail-icon {
+                color: $twitter;
+                background: $white;
+            }
+        }
+        &.behance {
+            background: $behance;
+            .touch-socail-icon {
+                color: $behance;
+                background: $white;
+            }
+        }
+        &.youtube {
+            background: $youtube;
+            .touch-socail-icon {
+                color: $youtube;
+                background: $white;
+            }
+        }
+        &.dribbble {
+            background: $dribbble;
+            .touch-socail-icon {
+                color: $dribbble;
+                background: $white;
+            }
+        }
+        &.linkedin {
+            background: $linkedin;
+            .touch-socail-icon {
+                color: $linkedin;
+                background: $white;
+            }
+        }
+        p {
+            color: $white;
+        }
+    }
+    
+}
+.touch-socail-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    color: $white;
+    
+}

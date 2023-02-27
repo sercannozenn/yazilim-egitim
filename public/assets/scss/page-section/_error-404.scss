@@ -1,0 +1,36 @@
+/*==================================
+    31. Error 404 page Css
+====================================*/
+
+.error-404-area {
+    padding: 100px 0;
+    position: relative;
+    @media #{$tablet-device} {
+        padding: 80px 0;
+    }
+    @media #{$large-mobile} {
+        padding: 60px 0;
+    }
+}
+.error-text {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top:50px;
+    h5 {
+        color: $primary;
+        margin-bottom: 20px;
+    }
+}
+
+.error-area-shap {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    @media #{$tablet-device} {
+        left: 40px;
+    }
+    @media #{$large-mobile} {
+        display: none;
+    }
+}

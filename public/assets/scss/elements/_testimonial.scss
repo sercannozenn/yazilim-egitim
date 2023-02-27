@@ -1,0 +1,106 @@
+/*============================================
+=          07. Testimonial Css          =
+=============================================*/
+.single-testimonial-item ,
+.single-testimonial-item-two{
+    padding: 30px 35px 60px;
+    background-color: $white;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 40px;
+    &::after {
+        position: absolute;
+        right: 35px;
+        bottom: 20px;
+        content: '';
+        background: url("../../assets/images/icons/quote.png");
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 52px;
+    }
+}
+.single-testimonial-item-two{
+    &::after {
+        background: url("../../assets/images/icons/quote-2.png");
+        background-repeat: no-repeat;
+    }
+    .testimonial-author-info {
+        p {
+            color: $primary;
+        }
+    }
+}
+.testimonial-post-author {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.testimonial-author-image {
+    width: 70px;
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+.testimonial-author-info {
+    p {
+        margin-top: 10px;
+        color: $primary-four;
+        font-size: 11px;
+    }
+}
+.testimonial-post-content {
+    .testimonial-post-title {
+        margin-bottom: 25px;
+        line-height: 1.6;
+    }
+    p {
+        font-size: 14px;
+        line-height: 2;
+    }
+}
+
+.testimonial-slider-navigation,
+.testimonial-slider-navigation-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .navigation-button {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        border: 2px solid $primary-four;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 10px;
+        color: $primary-four;
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+        margin: 10px;
+        &:hover {
+            border: 2px solid $primary-four;
+            background-color: $primary-four;
+            color: $white;
+        }
+    }
+}
+.testimonial-slider-navigation-two {
+    .navigation-button {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        border: 2px solid $primary;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 500000px;
+        color: $white;
+        background-color: $primary;
+        transition: all 0.3s ease-in-out;
+        margin: 10px;
+        &:hover {
+            border: 2px solid #222;
+            background-color: #222;
+            color: $white;
+        }
+    }
+}

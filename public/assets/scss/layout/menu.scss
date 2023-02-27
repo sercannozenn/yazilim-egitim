@@ -1,0 +1,689 @@
+
+
+/*============================== 
+    10. Navigation Menu Css
+===============================*/
+
+.navigation-menu{
+    @media #{$tablet-device} {
+        display: none;
+    }
+    @media #{$large-mobile} {
+        display: none;
+    }
+    & > ul{
+        & > li{
+            margin: 0 25px;
+            position: relative;
+            text-align: left;
+            display: inline-block;
+            @media #{$xl-device}{
+                margin: 0 22px;
+            }
+            @media #{$laptop-device}{
+                margin: 0 15px;
+            }
+            @media #{$desktop-device}{
+                margin: 0 12px;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+            &:first-child{
+                margin-left: 0;
+            }
+            & > a {
+                display: block;
+                color: $black;
+                padding: 30px 2px;
+                position: relative;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.18;
+                transition: all 0.0s ease-in-out;
+                span {
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+            &.has-children{
+                & > a{
+                    position: relative;
+                    &:after{
+                        position: static;
+                        margin-left: 5px;
+                        font-family: IcoFont;
+                        content: '\ea99';
+                        font-size: 14px;
+                        vertical-align: middle;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                &--multilevel-submenu{
+                    position: relative;
+                }
+
+                &:hover{
+                    .megamenu{
+                        transform: translateY(0);
+                        visibility: visible;
+                        opacity: 1;
+                        &--home-variation{
+                            &__item{
+                                visibility: visible;
+                                opacity: 1;
+                                transform: translateY(0);
+                            }
+                        }
+
+                    }
+                    & > .submenu{
+                        transform: translateY(0);
+                        visibility: visible;
+                        opacity: 1;
+
+                    }
+                }
+                
+            }
+
+            &:hover, &.active{
+                & > a{
+                    &:after{
+                        color: $primary;
+                        transition: all 0.3s ease-in-out;
+                    }
+                    & span {
+                        color: $primary;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    &-white {
+        & > ul{
+            & > li {
+                & > a {
+                    color: $white;
+                    &:before {
+                        content: '';
+                        width: 0;
+                        height: 3px;
+                        bottom: 0;
+                        position: absolute;
+                        left: 0;
+                        background-color: $primary;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.theme-color-two {
+    .navigation-menu{
+        & > ul{
+            & > li{
+                &:hover, &.active{
+                    & > a{
+                        &:after{
+                            color: $primary-two;
+                        }
+                        & span {
+                            color: $primary-two;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .submenu {
+        border-bottom: 3px solid $primary-two;
+        & > li {
+            &.active > a {
+                color: $primary-two;
+            }
+            a > span:after {
+                background-color: $primary-two;
+            }
+            & > a{
+                &:hover{
+                    color: $primary-two;
+                    & > span{
+                        &:after{
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    .megamenu{
+        &--mega{
+            & > li{
+                & > ul{
+                    & > li{
+                        & > a{
+                            &:hover{
+                                color: $primary-two;
+                            }
+                            
+                        }
+                        &.active {
+                            & > a{
+                                color: $primary-two;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.theme-color-three {
+    .navigation-menu{
+        & > ul{
+            & > li{
+                a {
+                    color: #250c83;
+                }
+                &:hover, &.active{
+                    & > a{
+                        &:after{
+                            color: $primary-three;
+                        }
+                        & span {
+                            color: $primary-three;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .submenu {
+        border-bottom: 3px solid $primary-three;
+        & > li {
+            &.active > a {
+                color: $primary-three;
+            }
+            a > span:after {
+                background-color: $primary-three;
+            }
+            & > a{
+                &:hover{
+                    color: $primary-three;
+                    & > span{
+                        &:after{
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    .megamenu{
+        &--mega{
+            & > li{
+                & > ul{
+                    & > li{
+                        & > a{
+                            &:hover{
+                                color: $primary-three;
+                            }
+                            
+                        }
+                        &.active {
+                            & > a{
+                                color: $primary-three;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.theme-color-four {
+    .navigation-menu{
+        & > ul{
+            & > li{
+                &:hover, &.active{
+                    & > a{
+                        &:after{
+                            color: $primary-four;
+                        }
+                        & span {
+                            color: $primary-four;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .submenu {
+        border-bottom: 3px solid $primary-four;
+        & > li {
+            &.active > a {
+                color: $primary-four;
+            }
+            a > span:after {
+                background-color: $primary-four;
+            }
+            & > a{
+                &:hover{
+                    color: $primary-four;
+                    & > span{
+                        &:after{
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    .megamenu{
+        &--mega{
+            & > li{
+                & > ul{
+                    & > li{
+                        & > a{
+                            &:hover{
+                                color: $primary-four;
+                            }
+                            
+                        }
+                        &.active {
+                            & > a{
+                                color: $primary-four;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.theme-color-five {
+    .navigation-menu{
+        & > ul{
+            & > li{
+                &:hover, &.active{
+                    & > a{
+                        &:after{
+                            color: $primary-five;
+                        }
+                        & span {
+                            color: $primary-five;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .submenu {
+        border-bottom: 3px solid $primary-five;
+        & > li {
+            &.active > a {
+                color: $primary-five;
+            }
+            a > span:after {
+                background-color: $primary-five;
+            }
+            & > a{
+                &:hover{
+                    color: $primary-five;
+                    & > span{
+                        &:after{
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    .megamenu{
+        &--mega{
+            & > li{
+                & > ul{
+                    & > li{
+                        & > a{
+                            &:hover{
+                                color: $primary-five;
+                            }
+                            
+                        }
+                        &.active {
+                            & > a{
+                                color: $primary-five;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.theme-color-six {
+    .navigation-menu{
+        & > ul{
+            & > li{
+                &:hover, &.active{
+                    & > a{
+                        &:after{
+                            color: $primary-five;
+                        }
+                        & span {
+                            color: $primary-five;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .submenu {
+        border-bottom: 3px solid $primary-five;
+        & > li {
+            &.active > a {
+                color: $primary-five;
+            }
+            a > span:after {
+                background-color: $primary-five;
+            }
+            & > a{
+                &:hover{
+                    color: $primary-five;
+                    & > span{
+                        &:after{
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    .megamenu{
+        &--mega{
+            & > li{
+                & > ul{
+                    & > li{
+                        & > a{
+                            &:hover{
+                                color: $primary-five;
+                            }
+                            
+                        }
+                        &.active {
+                            & > a{
+                                color: $primary-five;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*===================================
+    - Multilevel Submenu Css
+====================================*/
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
+    border-bottom: 3px solid $primary;
+    background-color: $white;
+    transform: translateY(50px);
+    transition: $transition--default;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 200px;
+    padding: 15px 0;
+    z-index: 9;
+
+    & > li {
+        position: relative;
+        & > a{
+            display: block;
+            padding: 5px 20px;
+            color: $black;
+            font-weight: 500;
+            transition: 0s;
+            & > span{
+                position: relative;
+                &:after{
+                    content: '';
+                    width: 0;
+                    height: 1px;
+                    bottom: 0;
+                    position: absolute;
+                    left: auto;
+                    right: 0;
+                    z-index: -1;
+                    background-color: $primary;
+                    transition: 0.3s;
+                }
+            }
+            &:hover{
+                color: $primary;
+                & > span{
+                    &:after{
+                        width: 100%;
+                        left: 0;
+                        right: auto;
+                    }
+                }
+            }
+        }
+        &:hover {
+            & > .submenu{
+                transform: translateY(0);
+                visibility: visible;
+                opacity: 1;
+                z-index: 9;
+
+            }
+        }
+        
+        &.active {
+            & > a{
+                color: $primary;
+            }
+        }
+        
+        &.has-children{
+            & > a{
+                position: relative;
+                transition: $transition--default; 
+                &:after{
+                    position: absolute;
+                    right: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-family: IcoFont;
+                    content: '\f105';
+                    font-size: 14px;
+                    vertical-align: middle;
+                    color: #ababab;
+                }
+
+                
+
+                &:hover{
+                    &:after{
+                        color: $primary;
+                    }
+                }
+            }
+            &.active {
+                & > a{
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    & .submenu{
+        top: 0px;
+        left: 100%;
+        right: auto;
+
+        &.left{
+            right: 100%;
+            left: auto;
+        }
+       
+        & .submenu{
+            top: 0;
+            left: 100%;
+            right: auto;
+            &.left{
+                right: 100%;
+                left: auto;
+            }
+            & .submenu{
+                top: 0;
+                left: 100%;
+                right: auto;
+                &.left{
+                    right: 100%;
+                    left: auto;
+                }
+                & .submenu{
+                    top: 0;
+                    left: 100%;
+                    right: auto;
+                    &.left{
+                        right: 100%;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }  
+}
+
+/*=========================================
+    - Mega Menu Css
+===========================================*/
+
+.megamenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
+    border-bottom: 3px solid $primary;
+    background-color: $white;
+    transform: translateY(50px);
+    transition: $transition--default;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9;
+
+
+    &--mega{
+        min-width: 980px;
+        width: 100%;
+        padding: 35px 20px 30px;
+        display: flex;
+        justify-content: space-around;
+
+        @media #{$laptop-device}{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        @media #{$laptop-device}{
+            min-width: 700px;
+        }
+        & > li{
+            flex-basis: 22%;
+            padding-left: 15px;
+            padding-right: 15px;
+            .page-list-title{
+                font-size: 14px;
+                margin-bottom: 20px;
+                color: $black;
+
+            }
+
+            & > ul{
+                & > li{
+                    & > a{
+                        padding: 10px 0;
+                        color: #ababab;
+                        line-height: 1.2;
+                        transition: 0.1s; 
+                        &:hover{
+                            color: $primary;
+                            span{
+                                &:after{
+                                    width: 100%;
+                                    left: 0;
+                                    right: auto;
+                                }
+                            }
+                        }
+                        & > span{
+                            position: relative;
+                            &:after{
+                                content: '';
+                                width: 0;
+                                height: 1px;
+                                bottom: 0;
+                                position: absolute;
+                                left: auto;
+                                right: 0;
+                                z-index: -1;
+                                background-color: $primary;
+                                transition: 0.3s;
+                            }
+                        }
+                    }
+                    &.active {
+                        & > a{
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

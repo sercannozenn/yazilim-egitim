@@ -1,0 +1,249 @@
+
+/*==================================
+    16. Newsletter Area Css
+====================================*/
+
+.newsletter-subscribe-inner {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    @media #{$tablet-device} {
+        padding: 70px 50px;
+    }
+    @media #{$large-mobile} {
+        padding: 60px 30px;
+    }
+    @media #{$small-mobile} {
+        padding: 60px 20px;
+    }
+}
+
+.newsletter-input-box {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    .newsletter-input {
+        max-width: 450px;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-right: 20px;
+        padding: 5px 15px;
+        font-weight: 500;
+        height: 60px;
+        @media #{$desktop-device,$tablet-device} {
+            max-width: 300px;
+        }
+        @media #{$large-mobile} {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    @media #{$large-mobile} {
+        flex-direction: column;
+    }
+}
+.newsletter-inner-image {
+    .newsletter-image-01 {
+        position: absolute;
+        bottom: 0;
+        left: 18%;
+        z-index: 0;
+    }
+    .newsletter-image-02 {
+        position: absolute;
+        bottom: 0;
+        right: 34px;
+        z-index: 0;
+    }
+}
+
+
+
+// Home two Newsletter Area Css
+
+.related-newsletter-box {
+    background: url("../images/banners/home-two-newsletter-bg.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.related-newsletter-inner-box {
+    max-width: 730px;
+    margin: auto;
+    text-align: center;
+    padding: 80px 15px;
+    .title {
+        color: $white;
+        font-size: 44px;
+        font-weight: bold;
+        .normal-width {
+            font-weight: 500;
+        }
+        @media #{$tablet-device} {
+            font-size: 30px;
+        }
+        @media #{$large-mobile} {
+            font-size: 30px;
+        }
+    }
+}
+
+// Home three Newsletter Area Css
+
+.related-newsletter-three-box {
+    background: url("../images/banners/home-three-newsletter-bg.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.related-newsletter-three-inner-box {
+    max-width: 894px;
+    text-align: left;
+    padding: 80px 100px;
+    @media #{$tablet-device,$large-mobile} {
+        padding: 60px 40px;
+    }
+    @media #{$small-mobile} {
+        padding: 60px 40px 100px;
+    }
+    
+    .title {
+        color: $white;
+        font-weight: bold;
+        font-size: 44px;
+        .normal-width {
+            font-weight: 500;
+        }
+        @media #{$tablet-device} {
+            font-size: 30px;
+        }
+        @media #{$large-mobile} {
+            font-size: 30px;
+        }
+    }
+}
+.subscribe-today-update {
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+    width: 250px;
+    .today-update-text {
+        font-size: 28px;
+        color: $white;
+        font-weight: 400;
+        span {
+            font-weight: 600;
+        }
+    }
+    @media #{$tablet-device} {
+        right: 40px;
+        .today-update-text {
+            font-size: 22px;
+        }
+    }
+    @media #{$large-mobile} {
+        right: 20px;
+        .today-update-text {
+            font-size: 18px;
+        }
+    }
+    @media #{$small-mobile} {
+        left: 45px;
+        bottom: 30px;
+        width: 150px;
+        .today-update-text {
+            font-size: 18px;
+        }
+    }
+}
+
+
+// Newsletter Four Css
+
+
+
+.newsletter-four-box {
+    background: url("../images/banners/home-four-newsletter-bg.jpg");
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    @media #{$tablet-device} {
+        padding: 70px 50px;
+    }
+    @media #{$large-mobile} {
+        padding: 60px 30px;
+    }
+    @media #{$small-mobile} {
+        padding: 60px 20px;
+    }
+
+    .title {
+        color: $white;
+        font-weight: 500;
+        margin-bottom: 10px;
+        font-size: 44px;
+        @media #{$tablet-device} {
+            font-size: 36px;
+        }
+        @media #{$large-mobile} {
+            font-size: 30px;
+        }
+    }
+    p {
+        color: $white;
+        font-size: 25px;
+        @media #{$tablet-device} {
+            font-size: 20px;
+        }
+        @media #{$large-mobile} {
+            font-size: 18px;
+        }
+    }   
+    .newsletter-input-box {
+        margin-top: 30px;
+        justify-content: center;
+        .newsletter-input {
+            background: transparent;
+            border: 1px solid #fff;
+            color: $white;
+            border-radius: 15px;
+            padding: 0 30px;
+            &::-webkit-input-placeholder { /* Edge */
+                color: $white;
+            }
+            &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: $white;
+            }
+            &::placeholder {
+                color: $white;
+            }   
+        }
+    }
+}
+
+.newsletter-inner-image {
+    .newsletter-image-01 {
+        position: absolute;
+        bottom: 0;
+        left: 18%;
+        z-index: 0;
+    }
+    .newsletter-image-02 {
+        position: absolute;
+        bottom: 0;
+        right: 34px;
+        z-index: 0;
+    }
+}
+

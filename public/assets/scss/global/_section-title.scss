@@ -1,0 +1,57 @@
+/*============================================
+=          04. Section title Css          =
+=============================================*/
+.section-title-two {
+    position: relative;
+    margin-bottom: 40px;
+    &::after {
+        background-color: #e3e3e3;
+        content: "";
+        left: 0;
+        top: 50%;
+        position: absolute;
+        height: 1px;
+        width: 100%;
+    }
+    h2 {
+        color: $secondary-two;
+        background: #fff;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        &::after {
+            background-color: #fff;
+            content: "";
+            right: -50px;
+            left: auto;
+            top: 50%;
+            position: absolute;
+            height: 90%;
+            width: 50px;
+            transform: translateY(-50%);
+        }
+        &::before {
+            background-color: #fff;
+            content: "";
+            left: -50px;
+            right: auto;
+            top: 50%;
+            position: absolute;
+            height: 90%;
+            width: 50px;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+
+
+.section-title-three {
+    .title {
+        color: $secondary-three;
+    }
+}
+
+.sub-title-four {
+    color: $primary-four;
+}

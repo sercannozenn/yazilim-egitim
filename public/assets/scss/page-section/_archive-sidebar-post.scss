@@ -1,0 +1,152 @@
+/*==================================
+    20. Archive Search Area Css
+====================================*/
+.archive-search-box {
+    position: relative;
+    margin-top: 20px;
+    .search-input {
+        width: 100%;
+        background-color: #f8f7fc;
+        border-radius: 10px;
+        position: relative;
+        border: none;
+        font-weight: 500;
+        padding: 16px 40px 16px 30px;
+    }
+    .search-button {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        background-color: transparent;
+        color: $primary-four;
+        padding: 10px 15px;
+        border: none;
+        font-size: 20px;
+        transform: translateY(-50%);
+    }
+}
+
+.archive-post-inner-wrap {
+    border-radius: 10px;
+    max-width: 300px;
+    margin-left: auto;
+    @media #{$desktop-device,$tablet-device,$large-mobile} {
+        max-width: 100%;
+        margin-top: 60px;
+    }
+}
+
+.single-archive-post {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.archive-post-thum {
+    flex-basis: 0 0 auto;
+    min-width: 84px;
+    a {
+        img {
+            border-radius: 10px;
+        }
+    }
+}
+.archive-post-content {
+    margin-left: 20px;
+    .title {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .archive-post-meta {
+        font-size: 12px;
+        margin-top: 10px;
+        span {
+            position: relative;
+            padding-right: 6px;
+            margin-right: 6px;
+            &::after {
+                position: absolute;
+                content: "";
+                right: -0px;
+                top: 50%;
+                height: 4px;
+                width: 4px;
+                background: $black;
+                border-radius: 50000px;
+                transform: translateY(-50%);
+            }
+            a {
+                &:hover {
+                    color: $primary;
+                }
+            }
+            &:last-child {
+                padding-right: 0;
+                margin-right: 0;
+                &::after {
+                    display: none;
+                }
+            } 
+        }
+    }
+}
+
+
+// Follow Socail Share
+
+.follow-us-box {
+    margin-top: 20px;
+}
+.single-follow-col {
+    margin-bottom: 15px;
+}
+.single-follow {
+    background-color: #f8f7fc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 17px 20px;
+    i {
+        margin-right: 5px;
+    }
+    .socail-title {
+        font-weight: 600;
+    }
+    &:hover {
+        background-color: $primary-four;
+        color: $white;
+        .follow-share-onover {
+            .follow-title {
+                opacity: 0;  
+                visibility: hidden;
+            }
+            .follow-hover {
+                opacity: 1;  
+                visibility: visible;
+                color: $white;
+            }
+        }
+        & .follow-socail-icon {
+            color: $white;
+        }
+    }
+}
+.follow-share-onover {
+    position: relative;
+    p {
+        margin-bottom: 0;
+        position: absolute;
+        right: 0;
+        transition: all 0.3s ease-in;
+        color: $black;
+    }
+    .follow-title {
+        opacity: 1;  
+        visibility: visible;
+    }
+    .follow-hover {
+        opacity: 0;  
+        visibility: hidden;
+    }
+}

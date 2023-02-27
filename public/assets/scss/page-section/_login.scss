@@ -1,0 +1,28 @@
+
+/*==================================
+    33. login page Css
+====================================*/
+
+.login-content form > input {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1px 20px;
+    color: #000000;
+    line-height: 47px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+
+.remember-wrap {
+    display: flex;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+    }
+}
+.remember-forget-wrap {
+    display: flex;
+    justify-content: space-between;
+}

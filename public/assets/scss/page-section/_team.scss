@@ -1,0 +1,91 @@
+/*==================================
+    26. Team Area Css
+====================================*/
+.single-team-area {
+    position: relative; 
+    overflow: hidden;
+    margin-top: 40px;
+    & .team-thum {
+        img {
+            width: 100%;
+        }
+    }
+    &:hover {
+        .team-content {
+            opacity: 1;
+            visibility: visible;
+        }
+        .team-share-top {
+            margin-top: 20px;
+        }
+        .team-member-info {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.team-content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.9) 0,rgba(253, 195, 158, 0.9) 100%);
+}
+.team-share-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    transition: all 0.4s ease-in-out;
+}
+.shate-action-button {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    &:hover {
+        background-color: #222;
+        color: #fff;
+    }
+}
+.team-social-share {
+    text-align: right;
+    margin-right: 20px;
+    li {
+        display: inline-block;
+        margin: 0 3px;
+        a {
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            &:hover {
+                background-color: #222;
+                color: #fff;
+            }
+        }
+    }
+}
+.team-member-info {
+    margin-bottom: 0px;
+    transition: all 0.3s ease-in-out;
+    .name-title {
+        color: $white;
+    }
+    .desination {
+        color: $primary;
+    }
+}

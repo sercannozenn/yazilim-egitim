@@ -1,0 +1,61 @@
+/*==================================
+    15. Trending Topic Area Css
+====================================*/
+.trending-topic-section-title {
+    max-width: 232px;
+    padding: 0 15px;
+    @media #{$desktop-device} {
+        max-width: 200px;
+    }
+    @media #{$tablet-device} {
+        max-width: 100%;
+    }
+    @media #{$large-mobile} {
+        max-width: 100%;
+    }
+}
+.trending-topic-item-wrap {
+    max-width: 968px;
+    @media #{$desktop-device} {
+        max-width: 758px;
+    }
+    @media #{$tablet-device} {
+        max-width: 100%;
+    }
+    @media #{$large-mobile} {
+        max-width: 100%;
+    }
+}
+
+.single-trending-topic-item {
+    text-align: center;
+    a {
+        display: block;
+        min-width: 120px;
+        max-width: 100%;
+        position: relative;
+        img {
+            border-radius: 15px;
+            width: 100%;
+        }
+        .title {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+        }
+        
+    }
+}
+
+.trending-topic-navigation {
+    margin-bottom: 20px;
+    .navigation-button {
+        background-color: #313438;
+        color: $white;
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}

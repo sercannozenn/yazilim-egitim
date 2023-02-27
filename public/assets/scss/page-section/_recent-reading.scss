@@ -1,0 +1,84 @@
+/*==================================
+    19. Recent Reading Area Css
+====================================*/
+.recent-reading-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    @media #{$small-mobile} {
+        flex-direction: column;
+        align-items: self-end;
+    }
+
+    .recent-article-date {
+        display: flex;
+        align-items: center;
+        .date-button {
+            margin-left: 15px;
+            height: 48px;
+            width: 48px;
+            line-height: 48px;
+            text-align: center;
+            background-color: #f8f7fc;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+.single-recent-reading-post {
+    display: flex;
+    margin-top: 40px;
+}
+.recent-reading-post-thum {
+    width: 120px;
+    flex: 0 0 auto;
+}
+.recent-reading-post-author {
+    color: #9b9ea1;
+    margin-bottom: 10px;
+    & a {
+        color: #000000;
+    }
+}
+.recent-reading-post-content {
+    margin-left: 25px;
+    @media #{$small-mobile} {
+        margin-left: 10px;
+    }
+}
+.recent-reading-post-meta {
+    font-size: 12px;
+    margin-top: 10px;
+    span {
+        position: relative;
+        padding-right: 10px;
+        margin-right: 10px;
+        &::after {
+            position: absolute;
+            content: "";
+            right: -0px;
+            top: 50%;
+            height: 4px;
+            width: 4px;
+            background: $black;
+            border-radius: 50000px;
+            transform: translateY(-50%);
+        }
+        a {
+            &:hover {
+                color: $primary;
+            }
+        }
+        &:last-child {
+            padding-right: 0;
+            margin-right: 0;
+            &::after {
+                display: none;
+            }
+        } 
+    }
+}

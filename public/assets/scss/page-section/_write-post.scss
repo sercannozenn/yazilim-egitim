@@ -1,0 +1,92 @@
+
+/*==================================
+    32. Write Content page Css
+====================================*/
+.share-thinking-title {
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 15px;
+    .title {
+        font-size: 28px;
+    }
+}
+
+.title-write {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.write-content-box {
+    border: 1px solid #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.post-write-tag {
+    a {
+        position: relative;
+        padding-right: 10px;
+        &::after {
+            content: ",";
+        }
+        &:last-child {
+            &::after {
+                content: "";
+            }
+        }
+    }
+}
+
+
+.post-write-trams {
+    padding: 0 20px;
+}
+
+.single-trams {
+    margin-bottom: 20px;
+    .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        .form-check-label {
+            margin-left: 10px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+}
+
+
+.form-check-input:checked {
+    background-color: $primary;
+    border-color: $primary;
+}
+.form-check-input:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.conditon-buttom-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    @media #{$tablet-device,$large-mobile} {
+        flex-direction: column;
+    }
+}
+.conditon-note {
+    color: #8e8f91;
+    max-width: 600px;
+    @media #{$desktop-device} {
+        max-width: 500px;
+    }
+    .title {
+        font-weight: 600;
+        color: $black;
+    }
+}
