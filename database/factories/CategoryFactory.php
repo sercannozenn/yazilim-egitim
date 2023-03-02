@@ -26,7 +26,7 @@ class CategoryFactory extends Factory
             "feature_status" => fake()->boolean,
             "order" => random_int(0,100),
             "seo_keywords" => Str::slug(fake()->address, ", "),
-            "seo_description" => fake()->paragraph
+            "seo_description" => fake()->text
         ];
     }
 }

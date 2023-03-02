@@ -17,7 +17,13 @@ class ArticleCommentsFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+     "parent_id" => random_int(1, 10),
+            "user_id" => random_int(1, 10),
+            "article_id" => random_int(1, 10),
+            "comment" => fake()->text,
+            "status" => random_int(0, 5),
+            "like_count" => random_int(0, 100),
+            "unlike_count" => random_int(0, 100),
         ];
     }
 }

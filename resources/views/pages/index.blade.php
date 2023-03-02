@@ -2,7 +2,8 @@
 @section("css")
 @endsection
 @section("content")
-
+<x-input-text></x-input-text>
+<hr>
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
             <div class="hero-area-two-wrapper">

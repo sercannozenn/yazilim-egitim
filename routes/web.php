@@ -56,3 +56,7 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('layouts.admin.register');
 });
+
+Route::get('/create-category',function (){
+    return view('layouts.admin.category.create');
+});

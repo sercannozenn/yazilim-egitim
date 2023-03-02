@@ -91,7 +91,7 @@
                                 <li class="active dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -103,7 +103,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -115,7 +115,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/3.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/3.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -127,7 +127,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/4.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/4.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -140,7 +140,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/5.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/5.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -152,7 +152,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -164,7 +164,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -177,7 +177,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/3.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/3.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -189,7 +189,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/4.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/4.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -202,7 +202,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/5.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/5.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -214,7 +214,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -226,7 +226,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -238,7 +238,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/3.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/3.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -251,7 +251,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/4.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/4.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -263,7 +263,7 @@
                                 <li class="dz-chat-user">
                                     <div class="d-flex bd-highlight">
                                         <div class="img_cont">
-                                            <img src={{asset("assets/admin/images/avatar/5.jpg")}} class="rounded-circle user_img" alt=""/>
+                                            <img src="{{asset("assets/admin/images/avatar/5.jpg")}}" class="rounded-circle user_img" alt=""/>
                                             <span class="online_icon offline"></span>
                                         </div>
                                         <div class="user_info">
@@ -297,7 +297,7 @@
                         <div class="card-body msg_card_body dz-scroll" id="DZ_W_Contacts_Body3">
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     Hi, how are you samim?
@@ -310,12 +310,12 @@
                                     <span class="msg_time_send">8:55 AM, Today</span>
                                 </div>
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     I am good too, thank you for your chat template
@@ -328,12 +328,12 @@
                                     <span class="msg_time_send">9:05 AM, Today</span>
                                 </div>
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     I am looking for your next templates
@@ -346,12 +346,12 @@
                                     <span class="msg_time_send">9:10 AM, Today</span>
                                 </div>
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     Bye, see you
@@ -360,7 +360,7 @@
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     Hi, how are you samim?
@@ -373,12 +373,12 @@
                                     <span class="msg_time_send">8:55 AM, Today</span>
                                 </div>
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     I am good too, thank you for your chat template
@@ -391,12 +391,12 @@
                                     <span class="msg_time_send">9:05 AM, Today</span>
                                 </div>
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     I am looking for your next templates
@@ -409,12 +409,12 @@
                                     <span class="msg_time_send">9:10 AM, Today</span>
                                 </div>
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/2.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/2.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-start mb-4">
                                 <div class="img_cont_msg">
-                                    <img src={{asset("assets/admin/images/avatar/1.jpg")}} class="rounded-circle user_img_msg" alt=""/>
+                                    <img src="{{asset("assets/admin/images/avatar/1.jpg")}}" class="rounded-circle user_img_msg" alt=""/>
                                 </div>
                                 <div class="msg_cotainer">
                                     Bye, see you
@@ -764,7 +764,7 @@
     <div class="deznav">
         <div class="deznav-scroll">
             <ul class="metismenu" id="menu">
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-networking"></i>
                         <span class="nav-text">Dashboard</span>
                     </a>
@@ -777,13 +777,13 @@
                         <li><a href="market-capital.html">Market Capital</a></li>
                     </ul>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-television"></i>
                         <span class="nav-text">Apps</span>
                     </a>
                     <ul aria-expanded="false">
                         <li><a href="./app-profile.html">Profile</a></li>
-                        <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Email</a>
+                        <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Email</a>
                             <ul aria-expanded="false">
                                 <li><a href="./email-compose.html">Compose</a></li>
                                 <li><a href="./email-inbox.html">Inbox</a></li>
@@ -791,7 +791,7 @@
                             </ul>
                         </li>
                         <li><a href="./app-calender.html">Calendar</a></li>
-                        <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Shop</a>
+                        <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Shop</a>
                             <ul aria-expanded="false">
                                 <li><a href="./ecom-product-grid.html">Product Grid</a></li>
                                 <li><a href="./ecom-product-list.html">Product List</a></li>
@@ -804,7 +804,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-controls-3"></i>
                         <span class="nav-text">Charts</span>
                     </a>
@@ -817,7 +817,7 @@
                         <li><a href="./chart-peity.html">Peity</a></li>
                     </ul>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-internet"></i>
                         <span class="nav-text">Bootstrap</span>
                     </a>
@@ -842,7 +842,7 @@
 
                     </ul>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-heart"></i>
                         <span class="nav-text">Plugins</span>
                     </a>
@@ -860,7 +860,7 @@
                         <span class="nav-text">Widget</span>
                     </a>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-notepad"></i>
                         <span class="nav-text">Forms</span>
                     </a>
@@ -872,7 +872,7 @@
                         <li><a href="form-validation-jquery.html">Jquery Validate</a></li>
                     </ul>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-network"></i>
                         <span class="nav-text">Table</span>
                     </a>
@@ -881,14 +881,14 @@
                         <li><a href="table-datatable-basic.html">Datatable</a></li>
                     </ul>
                 </li>
-                <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
                         <i class="flaticon-381-layer-1"></i>
                         <span class="nav-text">Pages</span>
                     </a>
                     <ul aria-expanded="false">
                         <li><a href="./page-register.html">Register</a></li>
                         <li><a href="./page-login.html">Login</a></li>
-                        <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
+                        <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Error</a>
                             <ul aria-expanded="false">
                                 <li><a href="./page-error-400.html">Error 400</a></li>
                                 <li><a href="./page-error-403.html">Error 403</a></li>
@@ -904,7 +904,7 @@
 
             <div class="add-menu-sidebar">
                 <p>Generate Monthly Credit Report</p>
-                <a href="javascript:void(0);">
+                <a href="javascript:void(0)">
                     <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.725 5.14889C23.7248 5.14861 23.7245 5.14828 23.7242 5.148L18.8256 0.272997C18.4586 -0.0922062 17.865 -0.0908471 17.4997 0.276184C17.1345 0.643169 17.1359 1.23675 17.5028 1.602L20.7918 4.875H0.9375C0.419719 4.875 0 5.29472 0 5.8125C0 6.33028 0.419719 6.75 0.9375 6.75H20.7917L17.5029 10.023C17.1359 10.3882 17.1345 10.9818 17.4998 11.3488C17.865 11.7159 18.4587 11.7172 18.8256 11.352L23.7242 6.477C23.7245 6.47672 23.7248 6.47639 23.7251 6.47611C24.0923 6.10964 24.0911 5.51414 23.725 5.14889Z" fill="white"/>
                     </svg>
@@ -933,7 +933,7 @@
                     </div>
                     <input type="text" class="form-control" placeholder="Search here">
                 </div>
-                <a href="javascript:void(0);" class="btn btn-primary ml-auto">+ Add New Cyrpto</a>
+                <a href="javascript:void(0)" class="btn btn-primary ml-auto">+ Add New Cyrpto</a>
             </div>
             <div class="row">
                 <div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
@@ -1048,9 +1048,9 @@
                                     Monthly (2020)
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">Link 1</a>
-                                    <a class="dropdown-item" href="javascript:void(0);">Link 2</a>
-                                    <a class="dropdown-item" href="javascript:void(0);">Link 3</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Link 1</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Link 2</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Link 3</a>
                                 </div>
                             </div>
                         </div>
@@ -1102,8 +1102,8 @@
                                     </svg>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">Details</a>
-                                    <a class="dropdown-item text-danger" href="javascript:void(0);">Cancel</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Details</a>
+                                    <a class="dropdown-item text-danger" href="javascript:void(0)">Cancel</a>
                                 </div>
                             </div>
                         </div>
@@ -1128,7 +1128,7 @@
                                     <p class="mb-2">Monthly Limits</p>
                                     <h4 class="mb-0 text-black font-w600 fs-20">$20,000 of $100,000</h4>
                                 </div>
-                                <a class="btn btn-link ml-auto font-w700" href="javascript:void(0);">View details</a>
+                                <a class="btn btn-link ml-auto font-w700" href="javascript:void(0)">View details</a>
                             </div>
                         </div>
                     </div>
@@ -1187,7 +1187,7 @@
                                             </td>
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">+$5,553</td>
-                                            <td><a class="btn-link text-success float-right" href="javascript:void(0);">Completed</a></td>
+                                            <td><a class="btn-link text-success float-right" href="javascript:void(0)">Completed</a></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -1212,7 +1212,7 @@
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">-$542</td>
                                             <td>
-                                                <a class="btn-link text-dark float-right" href="javascript:void(0);">Pending</a>
+                                                <a class="btn-link text-dark float-right" href="javascript:void(0)">Pending</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1237,7 +1237,7 @@
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">-$912</td>
                                             <td>
-                                                <a class="btn-link text-danger float-right" href="javascript:void(0);">Canceled</a>
+                                                <a class="btn-link text-danger float-right" href="javascript:void(0)">Canceled</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1261,7 +1261,7 @@
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">+$7,762</td>
                                             <td>
-                                                <a class="btn-link text-success float-right" href="javascript:void(0);">Completed</a>
+                                                <a class="btn-link text-success float-right" href="javascript:void(0)">Completed</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1287,7 +1287,7 @@
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">+$5,553</td>
                                             <td>
-                                                <a class="btn-link text-success float-right" href="javascript:void(0);">Completed</a>
+                                                <a class="btn-link text-success float-right" href="javascript:void(0)">Completed</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1312,7 +1312,7 @@
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">-$912</td>
                                             <td>
-                                                <a class="btn-link text-danger float-right" href="javascript:void(0);">Canceled</a>
+                                                <a class="btn-link text-danger float-right" href="javascript:void(0)">Canceled</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -1554,7 +1554,7 @@
                                             <td class="font-w500">06:24:45 AM</td>
                                             <td class="font-w600 text-center">+$5,553</td>
                                             <td>
-                                                <a class="btn-link text-success float-right" href="javascript:void(0);">Completed</a>
+                                                <a class="btn-link text-success float-right" href="javascript:void(0)">Completed</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -1574,8 +1574,8 @@
                                     </svg>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">Details</a>
-                                    <a class="dropdown-item text-danger" href="javascript:void(0);">Cancel</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Details</a>
+                                    <a class="dropdown-item text-danger" href="javascript:void(0)">Cancel</a>
                                 </div>
                             </div>
                         </div>
@@ -1593,8 +1593,8 @@
                                     <i class="fa fa-angle-down scale5 ml-auto"></i>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">4 June 2020 - 4 July 2020</a>
-                                    <a class="dropdown-item" href="javascript:void(0);">5 july 2020 - 4 Aug 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">4 June 2020 - 4 July 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">5 july 2020 - 4 Aug 2020</a>
                                 </div>
                             </div>
 
@@ -1653,7 +1653,7 @@
                             </div>
                         </div>
                         <div class="card-footer border-0 pt-0 text-center">
-                            <a href="javascript:void(0);" class="btn-link">Show more <i class="fa fa-caret-right ml-2 scale-2"></i></a>
+                            <a href="javascript:void(0)" class="btn-link">Show more <i class="fa fa-caret-right ml-2 scale-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1667,8 +1667,8 @@
                                     </svg>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">Details</a>
-                                    <a class="dropdown-item text-danger" href="javascript:void(0);">Cancel</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Details</a>
+                                    <a class="dropdown-item text-danger" href="javascript:void(0)">Cancel</a>
                                 </div>
                             </div>
                         </div>
@@ -1685,8 +1685,8 @@
                                     <i class="fa fa-angle-down scale5 ml-auto"></i>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">4 June 2020 - 4 July 2020</a>
-                                    <a class="dropdown-item" href="javascript:void(0);">5 july 2020 - 4 Aug 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">4 June 2020 - 4 July 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">5 july 2020 - 4 Aug 2020</a>
                                 </div>
                             </div>
 
@@ -1745,7 +1745,7 @@
                             </div>
                         </div>
                         <div class="card-footer border-0 pt-0 text-center">
-                            <a href="javascript:void(0);" class="btn-link">Show more <i class="fa fa-caret-right ml-2 scale-2"></i></a>
+                            <a href="javascript:void(0)" class="btn-link">Show more <i class="fa fa-caret-right ml-2 scale-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1769,8 +1769,8 @@
                                     </svg>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">4 June 2020 - 4 July 2020</a>
-                                    <a class="dropdown-item" href="javascript:void(0);">5 july 2020 - 4 Aug 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">4 June 2020 - 4 July 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">5 july 2020 - 4 Aug 2020</a>
                                 </div>
                             </div>
                         </div>
@@ -1818,13 +1818,13 @@
                                     <p class="mb-0 fs-13">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                                 </div>
                                 <div class="col-md-7 text-left mt-3 mt-sm-0 text-sm-right">
-                                    <a href="javascript:void(0);" class="btn btn-success rounded-0 mb-2">
+                                    <a href="javascript:void(0)" class="btn btn-success rounded-0 mb-2">
                                         BUY
                                         <svg class="ml-4 scale3" width="16" height="16" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M16.9638 11.5104L16.9721 14.9391L3.78954 1.7565C3.22815 1.19511 2.31799 1.19511 1.75661 1.7565C1.19522 2.31789 1.19522 3.22805 1.75661 3.78943L14.9392 16.972L11.5105 16.9637L11.5105 16.9637C10.7166 16.9619 10.0715 17.6039 10.0696 18.3978C10.0677 19.1919 10.7099 19.8369 11.5036 19.8388L11.5049 19.3388L11.5036 19.8388L18.3976 19.8554L18.4146 19.8555L18.4159 19.8555C18.418 19.8555 18.42 19.8555 18.422 19.8555C19.2131 19.8533 19.8528 19.2114 19.8555 18.4231C19.8556 18.4196 19.8556 18.4158 19.8556 18.4117L19.8389 11.5035L19.8389 11.5035C19.8369 10.7097 19.1919 10.0676 18.3979 10.0695C17.604 10.0713 16.9619 10.7164 16.9638 11.5103L16.9638 11.5104Z" fill="white" stroke="white"></path>
                                         </svg>
                                     </a>
-                                    <a href="javascript:void(0);" class="btn ml-3 btn-danger rounded-0 mb-2">
+                                    <a href="javascript:void(0)" class="btn ml-3 btn-danger rounded-0 mb-2">
                                         SELL
                                         <svg class="ml-4 scale5" width="16" height="16" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.35182 13.4965L5.35182 13.4965L5.33512 6.58823C5.33508 6.5844 5.3351 6.58084 5.33514 6.57759M5.35182 13.4965L5.83514 6.58306L5.33514 6.58221C5.33517 6.56908 5.33572 6.55882 5.33597 6.5545L5.33606 6.55298C5.33585 6.55628 5.33533 6.56514 5.33516 6.57648C5.33515 6.57684 5.33514 6.57721 5.33514 6.57759M5.35182 13.4965C5.35375 14.2903 5.99878 14.9324 6.79278 14.9305C7.58669 14.9287 8.22874 14.2836 8.22686 13.4897L8.22686 13.4896L8.21853 10.0609M5.35182 13.4965L8.21853 10.0609M5.33514 6.57759C5.33752 5.789 5.97736 5.14667 6.76872 5.14454C6.77041 5.14452 6.77217 5.14451 6.77397 5.14451L6.77603 5.1445L6.79319 5.14456L13.687 5.16121L13.6858 5.66121L13.687 5.16121C14.4807 5.16314 15.123 5.80809 15.1211 6.6022C15.1192 7.3961 14.4741 8.03814 13.6802 8.03626L13.6802 8.03626L10.2515 8.02798L23.4341 21.2106C23.9955 21.772 23.9955 22.6821 23.4341 23.2435C22.8727 23.8049 21.9625 23.8049 21.4011 23.2435L8.21853 10.0609M5.33514 6.57759C5.33513 6.57959 5.33514 6.58159 5.33514 6.5836L8.21853 10.0609M6.77407 5.14454C6.77472 5.14454 6.77537 5.14454 6.77603 5.14454L6.77407 5.14454Z" fill="white" stroke="white"></path>
@@ -1853,8 +1853,8 @@
                                     </svg>
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="javascript:void(0);">4 June 2020 - 4 July 2020</a>
-                                    <a class="dropdown-item" href="javascript:void(0);">5 july 2020 - 4 Aug 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">4 June 2020 - 4 July 2020</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">5 july 2020 - 4 Aug 2020</a>
                                 </div>
                             </div>
                         </div>
@@ -1873,7 +1873,7 @@
                             </div>
                             <div class="d-flex justify-content-between align-items-center">
                                 <h4 class="fs-20 text-black mb-0">Recent Contacts</h4>
-                                <a href="javascript:void(0);" class="btn btn-link">View more</a>
+                                <a href="javascript:void(0)" class="btn btn-link">View more</a>
                             </div>
                             <div class="testimonial-one owl-right-nav owl-carousel owl-loaded owl-drag">
                                 <div class="items">
@@ -1926,7 +1926,7 @@
                                     <p class="mb-0 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                                 </div>
                                 <div class="col-md-5 text-right">
-                                    <a href="javascript:void(0);" class="btn btn-primary d-block rounded-0 mt-3 mt-md-0">
+                                    <a href="javascript:void(0)" class="btn btn-primary d-block rounded-0 mt-3 mt-md-0">
                                         TRANSFER NOW
                                     </a>
                                 </div>

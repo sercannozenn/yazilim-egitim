@@ -16,8 +16,14 @@ class SocialMediaFactory extends Factory
      */
     public function definition(): array
     {
+        $name = fake()->name;
         return [
-            //
+            "name" => $name,
+            "icon" => fake()->randomElement,
+            "status" => fake()->boolean,
+            "link" => fake()->url,
+            "order" => random_int(0,100)
+
         ];
     }
 }

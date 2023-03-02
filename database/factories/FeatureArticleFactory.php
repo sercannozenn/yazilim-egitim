@@ -17,7 +17,7 @@ class FeatureArticleFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            "article_id" => random_int(1,10)
         ];
     }
 }
