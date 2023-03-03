@@ -46,8 +46,12 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin', function () {
-    return view('layouts.admin.admin');
+    return view('layouts.admin');
 });
+Route::prefix("/admin")->group(function () {
+    Route::get("/create-category", [\App\Http\Controllers\CategoryController::class,"create"])->name("admin.create.category");
+});
+
 
 Route::get('/login', function () {
     return view('layouts.admin.login');
@@ -57,6 +61,6 @@ Route::get('/register', function () {
     return view('layouts.admin.register');
 });
 
-Route::get('/create-category',function (){
+Route::get('/create-category', function () {
     return view('layouts.admin.category.create');
 });
