@@ -9,14 +9,16 @@
 
 @isset($id)
     <input
-        type="{{ $inputType ?? 'text' }}"
-        class="{{ $inputClass ?? '' }}"
-        placeholder="{{ $placeHolder ?? '' }}"
+        type="{{ $type ?? 'text' }}"
+        class="{{ $class ?? '' }}"
+        placeholder="{{ $placeholder ?? '' }}"
         name="{{ $name ?? '' }}"
         id="{{ $id }}"
         {{ isset($checked) && $checked ? 'checked' : ''}}
         value="{{$defaultValue ?? ''}}"
+        style="{{ $style ?? '' }}"
     >
+    {!! $error ?? '' !!}
 @endisset
 
 

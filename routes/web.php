@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -49,8 +50,9 @@ Route::get('/admin', function () {
     return view('layouts.admin');
 });
 Route::prefix("/admin")->group(function () {
-    Route::get("/category-create", [\App\Http\Controllers\CategoryController::class,"create"])->name("admin.category.create");
-    Route::get("/category-list", [\App\Http\Controllers\CategoryController::class,"list"])->name("admin.category.list");
+    Route::get("/category-create", [CategoryController::class,"create"])->name("admin.category.create");
+    Route::post("/category-create", [CategoryController::class,"store"]);
+    Route::get("/category-list", [CategoryController::class,"list"])->name("admin.category.list");
 });
 
 

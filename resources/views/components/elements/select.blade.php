@@ -13,13 +13,16 @@
     <select
         name="{{ $name ?? '' }}"
         id="{{ $id }}"
-        class="{{ $selectClass ?? '' }}"
+        class="{{ $class ?? '' }}"
+        style="{{ $style ?? '' }}"
 
 
     >
-@foreach($options as $key=>$value)
-            <option value="{{$key}}" {{isset($defaultValue) && $defaultValue==$key ? 'selected' : ''}}>{{$value}}</option>
-
+        @if(isset($defaultOption) && $defaultOption)
+            <option value="{{ null }}">{{ $defaultOption }}</option>
+        @endif
+@foreach($options as $option)
+            <option value="{{$option->id}}" {{isset($defaultValue) && $defaultValue==$option->id ? 'selected' : ''}}>{{$option->name}}</option>
 @endforeach
     </select>
 @endisset

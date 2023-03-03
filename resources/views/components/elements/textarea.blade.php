@@ -17,8 +17,7 @@
         placeholder="{{ $placeholder ?? '' }}"
         style="{{$style ?? ''}}"
 
-    >
-    </textarea>
+    >{{ $defaultValue ?? '' }}</textarea>
 @endisset
 
 

@@ -12,7 +12,7 @@
         style="{{$style ?? ''}}"
 
     >
-        {!! $text !!}
+        {!! $elementText !!}
     </button>
 @endisset
 
