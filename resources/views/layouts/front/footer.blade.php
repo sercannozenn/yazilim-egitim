@@ -7,9 +7,9 @@
                     <div class="footer-widget">
                         <div class="footer-logo">
                             <a href="index.html">
-                                <img src="assets/images/logo/logo-2.png" alt="">
+                                <img src="assets/front/images/logo/logo-2.png" alt="">
                             </a>
-                        </div>
+                        </div>Ï
                         <p>Lorem Ipsum is simply dummy text
                             the printing and typesetting industry
                             has been the industry's standard
