@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -46,8 +47,14 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin', function () {
-    return view('layouts.admin.admin');
+    return view('layouts.admin');
 });
+Route::prefix("/admin")->group(function () {
+    Route::get("/category-create", [CategoryController::class,"create"])->name("admin.category.create");
+    Route::post("/category-create", [CategoryController::class,"store"]);
+    Route::get("/category-list", [CategoryController::class,"list"])->name("admin.category.list");
+});
+
 
 Route::get('/login', function () {
     return view('layouts.admin.login');
@@ -56,3 +63,8 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('layouts.admin.register');
 });
+
+Route::get('/create-category', function () {
+    return view('layouts.admin.category.create');
+});
+

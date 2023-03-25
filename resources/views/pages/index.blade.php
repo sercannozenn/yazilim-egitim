@@ -3,6 +3,7 @@
 @endsection
 @section("content")
 
+<hr>
     <div id="main-wrapper">
         <div class="site-wrapper-reveal">
             <div class="hero-area-two-wrapper">
